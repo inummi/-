@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    display: block;
+}
+
+.hideme{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:#8B4513;
+}
+
+
+
+#container{
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 700px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+#header{
+    width: 1200px;
+    height: 150px;
+}
+
+#logo{
+    float:left;
+    
+}
+
+#logotitle{
+    padding-left: 10px;
+    float:left;
+}
+#headermenu{
+    float: left;
+    width: 350px;
+    padding-top: 7px;
+}
+
+#social{
+   float: left;
+   width: 200px;
+   padding-top: 15px;
+}
+
+#cart{
+    float: left;
+}
+
+
+#leftColumn{
+    width: 220px;
+     
+    float: left;
+}
+
+#rightcolumn{
+    
+    float:right;
+     width: 220px;
+    height: 700px;
+}
+
+
+#leftMenu, #loginBox, #registerBox{
+    padding-bottom: 20px;
+}
+
+#centerColumn{
+    width: 400px;
+    float: left;
+    padding-left: 40px;
+}
+
+#footer{
+    clear: both;
+}
+
+
+
+.cartBox{
+    padding: 5px 0px 5px 0px;
+}
+
+.showHidden{
+    cursor: pointer;
+}
+
+#registerBoxHidden{
+    display: none;
+}
